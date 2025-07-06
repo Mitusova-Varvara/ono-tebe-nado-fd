@@ -50,7 +50,6 @@
 }
 
 .address a {
-  text-decoration: none;
   color: var(--text-color);
   text-decoration: underline solid var(--text-color) 1px;
   text-underline-offset: 4px;
