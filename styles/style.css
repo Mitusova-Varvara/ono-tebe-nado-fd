@@ -10,7 +10,7 @@
   grid-template-columns: 1fr min-content 1fr;
   position: relative;
   align-items: center;
-  padding: 92px 50px 96px 50px;
+  padding: 92px 50px 94px 50px;
   font-size: 18px;
   font-weight: normal;
 }
@@ -65,11 +65,12 @@
   flex-direction: column;
   justify-content: space-between;
   background: url("../images/cover.jpg") center/cover no-repeat;
-  height: 757px;
+  min-height: 757px;
 }
 
 .cover-shadow {
   position: absolute;
+  top: 0;
   z-index: -1;
   height: 100%;
   width: 100%;
@@ -85,8 +86,7 @@
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: 165px 25px 0 50px;
-  height: 385px;
+  padding: 165px 20px 0 50px;
   color: var(--accent-text-color);
   line-height: 115%;
   letter-spacing: 0.3em;
@@ -122,7 +122,7 @@
   font-size: 22px;
   text-transform: uppercase;
   line-height: 127%;
-  word-spacing: 17px;
+  word-spacing: 19px;
 }
 
 .cover-description-item {
@@ -209,7 +209,7 @@
   display: flex;
   justify-content: center;
   width: 1052px;
-  margin: 120px 24px 180px 24px;
+  margin: 120px 24px 160px 24px;
 }
 
 .about-logo {
@@ -256,6 +256,7 @@
   flex-direction: row;
   justify-content: space-between;
   margin-inline: 50px;
+  font-size: 18px;
 }
 
 .footer-menu-list {
